@@ -12,7 +12,7 @@ namespace TodoList
     /// </summary>
     class Todo : RealmObject
     {
-        public string TodoMessage = "";
-        public bool isTodoDone = false;
+        public string TodoMessage { get; set; }
+        public bool IsTodoDone { get; set; }
     }
 }
